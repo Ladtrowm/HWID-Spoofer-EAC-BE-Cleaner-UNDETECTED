@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{68ACEBE3-A488-436B-9C4C-ADCC3F443286}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{869C84EE-7E6B-4F52-81B8-BE68AA1EF8A8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\imgui">
+      <UniqueIdentifier>{F0AF3BBC-C0E8-4ABB-B937-5A72469C614F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{5D404CA0-45DF-4A22-8BF2-180BE28ECDC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\font">
+      <UniqueIdentifier>{5D99F7A4-91CC-4EA3-A170-CFC0D2EC4123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{3763BD9A-FC62-4230-ACE5-2D0821E0C387}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>Framework\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Menu\font</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="icons.h">
+      <Filter>Menu\font</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imguipp_v2.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="drv_resource.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="mapp.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Mac.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="portable.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="service.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vul_driver.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp" />
+    <ClInclude Include="vul_driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="service.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="portable.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Loader.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mapp.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_dx9.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
